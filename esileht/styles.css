@@ -1,0 +1,58 @@
+h1 {/* vaja muuta */
+    color:blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:160%;
+}
+
+p {/* vaja muuta */
+    color:rgb(73, 163, 223);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:120%;
+    text-align: center;
+
+}
+.body{
+    width:auto;
+    background-position:center;
+    background-size: contain;
+}
+.pilt{
+    background-image: url("kuld.jpg"); /* vaja muuta */
+    height: 152px; /* võib muuta */
+    /* background-position: center; */ /* uncomment kui tahate pildi keskohta keskele*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.nupud{
+    background-color:rgb(216, 146, 146);/* vaja muuta */
+    color:white;/* vaja muuta */
+
+    top: 0;
+    padding:10px 0px 10px 0px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: static;
+}
+.nupud nupp {
+    float: left;
+    color: white;/* vaja muuta */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;/* vaja muuta */
+    font-size: 20px;/* vaja muuta */
+}
+.tekst{/* vaja muuta */
+    height: auto;
+    background-color:burlywood;
+}
+.jalus{
+    height: 10% ; /* vaja muuta */
+    background-color:rgb(114, 114, 236); /* vaja muuta */
+    bottom: 0px;
+
+}
+.scrolling-box {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
