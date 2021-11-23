@@ -1,15 +1,19 @@
-h1 {/* vaja muuta */
-    color:blue;
-    font-family: 'Courier New', Courier, monospace;
-    font-size:160%;
+.scrolling-box {
+    margin: 0px;
+    background-color: antiquewhite;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.headertext {/* vaja muuta */
+    color:rgb(255, 255, 255);
+    font-family: 'Blackadder ITC';
+    font-size:144px;
+    padding-left: 75px;
 }
 
 p {/* vaja muuta */
-    color:rgb(73, 163, 223);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Calibri';
     font-size:120%;
-    text-align: center;
-
 }
 .body{
     width:auto;
@@ -17,24 +21,22 @@ p {/* vaja muuta */
     background-size: contain;
 }
 .pilt{
-    background-image: url("kuld.jpg"); /* vaja muuta */
-    height: 152px; /* võib muuta */
-    /* background-position: center; */ /* uncomment kui tahate pildi keskohta keskele*/
-    background-repeat: no-repeat;
+    background-image: url("/veebilehe-projekt/banner.jpg");
+    height: 180px;
+    background-position: center;
     background-size: cover;
     position: relative;
 }
-.nupud{
-    background-color:rgb(216, 146, 146);/* vaja muuta */
+.nupud {
+    background-color:rgb(36, 32, 32);
     color:white;/* vaja muuta */
-
     top: 0;
     padding:10px 0px 10px 0px;
     margin: 0 auto;
     overflow: hidden;
     position: static;
 }
-.nupud nupp {
+.nupud .nupp {
     float: left;
     color: white;/* vaja muuta */
     text-align: center;
@@ -42,17 +44,21 @@ p {/* vaja muuta */
     text-decoration: none;/* vaja muuta */
     font-size: 20px;/* vaja muuta */
 }
-.tekst{/* vaja muuta */
-    height: auto;
-    background-color:burlywood;
+.nupud :hover {
+    background-color: rgb(78, 78, 78);
 }
-.jalus{
-    height: 10% ; /* vaja muuta */
-    background-color:rgb(114, 114, 236); /* vaja muuta */
-    bottom: 0px;
+.maintekst{/* vaja muuta */
+    height: auto;
+    margin-left: 30px;
+    margin-right: 30px;
 
 }
-.scrolling-box {
-    overflow-y: scroll;
-    scroll-behavior: smooth;
+.jalus{
+    background-color:rgb(36, 32, 32); /* vaja muuta */
+    color: rgb(255, 255, 255);
+
+}
+.jalustekst {
+    margin: 10px 30px;
+    line-break: ;
 }
