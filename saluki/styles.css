@@ -1,0 +1,58 @@
+.scrolling-box {
+    margin: 0px;
+    background-color: antiquewhite;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.headertext {/* vaja muuta */
+    color:rgb(255, 255, 255);
+    font-family: 'Blackadder ITC';
+    font-size:144px;
+    padding-left: 75px;
+}
+
+p {/* vaja muuta */
+    font-family: 'Calibri';
+    font-size:120%;
+}
+.body{
+    width:auto;
+    background-position:center;
+    background-size: contain;
+}
+.pilt{
+    background-image: url("/veebilehe-projekt/banner.jpg"); /* vaja muuta */
+    height: 180px; /* võib muuta */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.nupud {
+    background-color:rgb(36, 32, 32);
+    color:white;/* vaja muuta */
+    top: 0;
+    padding:10px 0px 10px 0px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: static;
+}
+.nupud .nupp {
+    float: left;
+    color: white;/* vaja muuta */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;/* vaja muuta */
+    font-size: 20px;/* vaja muuta */
+}
+.nupud :hover {
+    background-color: rgb(78, 78, 78);
+}
+.jalus{
+    background-color:rgb(36, 32, 32); /* vaja muuta */
+    color: rgb(255, 255, 255);
+
+}
+.jalustekst {
+    margin: 10px 30px;
+    line-break: ;
+}
