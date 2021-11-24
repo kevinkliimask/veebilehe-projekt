@@ -47,6 +47,11 @@ p {/* vaja muuta */
 .nupud :hover {
     background-color: rgb(78, 78, 78);
 }
+.aasta {
+    text-align: center;
+    font-family: 'Calibri';
+    margin: 0;
+}
 .jalus{
     background-color:rgb(36, 32, 32); /* vaja muuta */
     color: rgb(255, 255, 255);
