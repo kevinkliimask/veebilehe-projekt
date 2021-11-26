@@ -4,60 +4,109 @@
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
-.headertext {/* vaja muuta */
+.headertext {
     color:rgb(255, 255, 255);
     font-family: 'Blackadder ITC';
     font-size:144px;
     padding-left: 75px;
 }
 
-p {/* vaja muuta */
+p {
     font-family: 'Calibri';
     font-size:120%;
 }
-.body{
-    width:auto;
-    background-position:center;
-    background-size: contain;
+h2 {
+    font-family: 'Calibri';
 }
 .pilt{
-    background-image: url("/veebilehe-projekt/banner.jpg"); /* vaja muuta */
-    height: 180px; /* võib muuta */
+    background-image: url("/veebilehe-projekt/banner.jpg");
+    height: 180px;
     background-position: center;
     background-size: cover;
     position: relative;
 }
 .nupud {
     background-color:rgb(36, 32, 32);
-    color:white;/* vaja muuta */
+    color:white;
     top: 0;
     padding:10px 0px 10px 0px;
-    margin: 0 auto;
+    margin-bottom: 30px;
     overflow: hidden;
     position: static;
 }
 .nupud .nupp {
     float: left;
-    color: white;/* vaja muuta */
+    color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;/* vaja muuta */
-    font-size: 20px;/* vaja muuta */
+    text-decoration: none;
+    font-size: 20px;
 }
 .nupud :hover {
     background-color: rgb(78, 78, 78);
+}
+.maintekst {
+    height: 500px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.maintekstviimane {
+    height: 420px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#left {
+    float: right;
+    width: 50%;
+}
+#right {
+    float: right;
+    width: 50%;
+}
+#left2 {
+    float: right;
+    width: 45%;
+}
+#right2 {
+    float: right;
+    width: 55%;
+}
+#pilt1 {
+    margin: 50px 0px 0px 200px;
+    text-align: left;
+    width: 60%; 
+    box-shadow: 10px 10px 40px black
+}
+#pilt2 {
+    margin: 50px 0px 0px 60px;
+    text-align: left;
+    width: 65%; 
+    box-shadow: 10px 10px 40px black
+}
+#pilt3 {
+    margin: 50px 0px 0px 150px;
+    text-align: left;
+    width: 65%; 
+    box-shadow: 10px 10px 40px black
+}
+#videopealkiri {
+    text-align: center;
+}
+#video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 .aasta {
     text-align: center;
     font-family: 'Calibri';
     margin: 0;
 }
-.jalus{
-    background-color:rgb(36, 32, 32); /* vaja muuta */
+.jalus {
+    background-color:rgb(36, 32, 32);
     color: rgb(255, 255, 255);
-
 }
 .jalustekst {
     margin: 10px 30px;
-    line-break: ;
 }

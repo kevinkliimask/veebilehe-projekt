@@ -4,14 +4,14 @@
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
-.headertext {/* vaja muuta */
+.headertext {
     color:rgb(255, 255, 255);
     font-family: 'Blackadder ITC';
     font-size:144px;
     padding-left: 75px;
 }
 
-p {/* vaja muuta */
+p {
     font-family: 'Calibri';
     font-size:120%;
 }
@@ -29,28 +29,27 @@ p {/* vaja muuta */
 }
 .nupud {
     background-color:rgb(36, 32, 32);
-    color:white;/* vaja muuta */
+    color:white;
     top: 0;
     padding:10px 0px 10px 0px;
-    margin: 0 auto;
+    margin-bottom: 30px;
     overflow: hidden;
     position: static;
 }
 .nupud .nupp {
     float: left;
-    color: white;/* vaja muuta */
+    color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;/* vaja muuta */
-    font-size: 20px;/* vaja muuta */
+    text-decoration: none;
+    font-size: 20px;
 }
 .nupud :hover {
     background-color: rgb(78, 78, 78);
 }
-.maintekst{/* vaja muuta */
-    height: auto;
-    margin-left: 30px;
-    margin-right: 30px;
+.maintekst {
+    margin-left: 80px;
+    margin-right: 80px;
 
 }
 .aasta {
@@ -58,11 +57,10 @@ p {/* vaja muuta */
     font-family: 'Calibri';
     margin: 0;
 }
-.jalus{
-    background-color:rgb(36, 32, 32); /* vaja muuta */
+.jalus {
+    background-color:rgb(36, 32, 32); 
     color: rgb(255, 255, 255);
 }
 .jalustekst {
     margin: 10px 30px;
-    line-break: ;
 }
