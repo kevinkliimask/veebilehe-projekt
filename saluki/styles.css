@@ -21,8 +21,8 @@ p {/* vaja muuta */
     background-size: contain;
 }
 .pilt{
-    background-image: url("/veebilehe-projekt/banner.jpg");
-    height: 180px;
+    background-image: url("/veebilehe-projekt/banner.jpg"); /* vaja muuta */
+    height: 180px; /* võib muuta */
     background-position: center;
     background-size: cover;
     position: relative;
@@ -47,12 +47,6 @@ p {/* vaja muuta */
 .nupud :hover {
     background-color: rgb(78, 78, 78);
 }
-.maintekst{/* vaja muuta */
-    height: auto;
-    margin-left: 30px;
-    margin-right: 30px;
-
-}
 .aasta {
     text-align: center;
     font-family: 'Calibri';
@@ -61,6 +55,7 @@ p {/* vaja muuta */
 .jalus{
     background-color:rgb(36, 32, 32); /* vaja muuta */
     color: rgb(255, 255, 255);
+
 }
 .jalustekst {
     margin: 10px 30px;
