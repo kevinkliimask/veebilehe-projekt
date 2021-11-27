@@ -27,6 +27,12 @@ p {/* vaja muuta */
     background-size: cover;
     position: relative;
 }
+.koerapilt{
+    image: "iirisetter.jpg"
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
 .nupud {
     background-color:rgb(36, 32, 32);
     color:white;/* vaja muuta */
