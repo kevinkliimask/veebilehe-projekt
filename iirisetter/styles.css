@@ -1,11 +1,48 @@
 .maintekst {
-    height: 500px;
-    margin-left: 80px;
-    margin-right: 80px;
+  height: 500px;
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: justify;
 }
-.koerapilt{
-    image: "iirisetter.jpg"
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
+#left {
+  float: right;
+  width: 50%;
+}
+#right {
+  float: right;
+  width: 50%;
+}
+#left2 {
+  float: right;
+  width: 45%;
+}
+#right2 {
+  float: right;
+  width: 55%;
+}
+#left3 {
+  float: right;
+  width: 50%;
+}
+#right3 {
+  float: right;
+  width: 50%;
+}
+#pilt1 {
+  margin: 50px 0px 0px 150px;
+  text-align: left;
+  width: 45%;
+  box-shadow: 10px 10px 40px black;
+}
+#pilt2 {
+  margin: 50px 0px 0px 0px;
+  text-align: left;
+  width: 85%;
+  box-shadow: 10px 10px 40px black;
+}
+#pilt3 {
+  margin: 50px 0px 0px 100px;
+  text-align: left;
+  width: 80%;
+  box-shadow: 10px 10px 40px black;
 }
