@@ -18,6 +18,10 @@ p {
 h2 {
     font-family: 'Calibri';
 }
+h1 {
+    font-family: 'Calibri';
+    font-size: 300%;
+}
 .body{
     width:auto;
     background-position:center;

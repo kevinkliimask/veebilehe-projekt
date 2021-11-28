@@ -2,3 +2,17 @@
     margin-left: 80px;
     margin-right: 80px;
 }
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.esi {
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+.esi.fade {
+    opacity: 1;
+}
