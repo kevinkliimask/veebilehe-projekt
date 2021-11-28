@@ -1,57 +1,11 @@
-.scrolling-box {
-    margin: 0px;
-    background-color: antiquewhite;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-}
-.headertext {
-    color:rgb(255, 255, 255);
-    font-family: 'Blackadder ITC';
-    font-size:144px;
-    padding-left: 75px;
-}
-
-p {
-    font-family: 'Calibri';
-    font-size:120%;
-}
-h2 {
-    font-family: 'Calibri';
-}
-.pilt{
-    background-image: url("/veebilehe-projekt/banner.jpg");
-    height: 180px;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
-.nupud {
-    background-color:rgb(36, 32, 32);
-    color:white;
-    top: 0;
-    padding:10px 0px 10px 0px;
-    margin-bottom: 30px;
-    overflow: hidden;
-    position: static;
-}
-.nupud .nupp {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-}
-.nupud :hover {
-    background-color: rgb(78, 78, 78);
-}
 .maintekst {
     height: 500px;
     margin-left: 80px;
     margin-right: 80px;
 }
 .maintekstviimane {
-    height: 420px;
+    height: 350px;
+    margin-top: 100px;
     margin-left: 80px;
     margin-right: 80px;
 }
@@ -97,16 +51,4 @@ h2 {
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
-}
-.aasta {
-    text-align: center;
-    font-family: 'Calibri';
-    margin: 0;
-}
-.jalus {
-    background-color:rgb(36, 32, 32);
-    color: rgb(255, 255, 255);
-}
-.jalustekst {
-    margin: 10px 30px;
 }
