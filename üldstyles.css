@@ -12,7 +12,7 @@
 }
 p {
     font-family: 'Calibri';
-    font-size:120%;
+    font-size: 120%;
 }
 
 h2 {
@@ -38,16 +38,17 @@ h1 {
     background-color:rgb(36, 32, 32);
     color:white;
     top: 0;
-    padding:10px 0px 10px 0px;
+    padding:10px 0 10px 42px;
     margin-bottom: 30px;
     overflow: hidden;
     position: static;
 }
 .nupud .nupp {
+    font-family: 'Calibri';
     float: left;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 150px;
     text-decoration: none;
     font-size: 20px;
 }
