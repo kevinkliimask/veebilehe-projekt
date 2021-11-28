@@ -9,6 +9,7 @@
     font-family: 'Blackadder ITC';
     font-size:144px;
     padding-left: 75px;
+    text-shadow: 3px 3px 5px black;
 }
 p {
     font-family: 'Calibri';
@@ -23,42 +24,39 @@ h1 {
     font-size: 300%;
 }
 .body{
-    width:auto;
-    background-position:center;
-    background-size: contain;
+    width: auto;
 }
 .pilt{
     background-image: url("banner.jpg");
     height: 180px;
+    padding-top: 25px;
     background-position: center;
     background-size: cover;
-    position: relative;
 }
 .nupud {
     background-color:rgb(36, 32, 32);
     color:white;
-    top: 0;
-    padding:10px 0 10px 42px;
-    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
     overflow: hidden;
-    position: static;
 }
 .nupud .nupp {
     font-family: 'Calibri';
-    float: left;
     color: white;
     text-align: center;
-    padding: 14px 150px;
+    padding: 80px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 120%;
+    transition: 0.2s;
 }
 .nupud :hover {
     background-color: rgb(78, 78, 78);
 }
-.aasta {
+#aasta {
     text-align: center;
     font-family: 'Calibri';
     margin: 0;
+    padding-bottom: 10px;
 }
 .jalus {
     background-color:rgb(36, 32, 32); 
