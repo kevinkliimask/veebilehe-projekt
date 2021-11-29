@@ -23,10 +23,10 @@ h1 {
     font-family: 'Calibri';
     font-size: 300%;
 }
-.body{
+.body {
     width: auto;
 }
-.pilt{
+.pilt {
     background-image: url("banner.jpg");
     height: 180px;
     padding-top: 25px;
