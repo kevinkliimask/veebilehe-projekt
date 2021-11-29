@@ -1,11 +1,13 @@
 .maintekst {
-    height: 500px;
+    height: 440px;
+    margin-top: 20px;
     margin-left: 80px;
     margin-right: 80px;
     text-align: justify;
 }
 #maintekstviimane {
     height: 420px;
+    margin-top: 50px;
     margin-left: 80px;
     margin-right: 80px;
     text-align: justify;
